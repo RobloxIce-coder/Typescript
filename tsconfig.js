@@ -34,7 +34,7 @@ SystemJS.config({
   }
 });
 
-SystemJS.import("./src/main")
+SystemJS.import("./main")
  .catch(err => {
      console.error(err);
  });
